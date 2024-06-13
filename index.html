@@ -26,20 +26,20 @@
             <div class="main_container_box">
                 <div class="main_box">
                     <div class="main_box_dato">
-                        <span>Aforo</span>
-                    <div class="main_box_dato_dato"></div>
+                        <span>Aforo : </span>
+                    <div class="main_box_dato_dato" id="numero_aforo"></div>
                     </div>
                     <div class="main_box_dato">
-                        <span>Seguridad</span>
-                        <div class="main_box_dato_dato"></div>
+                        <span>Indice de seguridad : </span>
+                        <div class="main_box_dato_dato" id="numero_seguridad"></div>
                     </div>
                     <div class="main_box_dato">
                         <span>Zona</span>
-                        <input type="number" id="zona" value="1">
+                        <input type="number" id="zona" value="1" onchange="consulta()">
                     </div>
                     <div class="main_box_dato">
                         <span>Fecha</span>
-                        <input type="date" id="fecha" value="timestamp">
+                        <input type="date" id="fecha" value="timestamp" onchange="consulta()">
                     </div>
                 </div>
                 <div class="main_box">
